@@ -5,6 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print greeting
-        run: echo "this is greeting"
+        run: |
+          echo "this is first greeting"
+          echo "this is second greeting"
       - name: print bye
         run: echo "this is bye bye"
