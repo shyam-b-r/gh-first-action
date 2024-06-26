@@ -10,3 +10,5 @@ jobs:
           echo "this is second greeting"
       - name: print bye
         run: echo "this is bye bye"
+      - name: Get code            
+        uses: actions/checkout@v4
